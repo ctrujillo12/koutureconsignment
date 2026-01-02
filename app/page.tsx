@@ -399,7 +399,7 @@ export default function KoutureLanding() {
             </a>
           </div>
           <p className="text-[10px] sm:text-xs text-gray-400 tracking-wider font-light">
-            © 2024 KOUTURE CONSIGNMENT
+            © 2026 KOUTURE CONSIGNMENT
           </p>
         </div>
       </footer>
