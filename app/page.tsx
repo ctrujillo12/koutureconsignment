@@ -12,7 +12,6 @@ export default function KoutureLanding() {
   const heroImages = [
     '/images/store.jpeg',
     'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80',
-    
     '/images/heels.jpg',
   ];
 
