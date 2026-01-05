@@ -31,7 +31,7 @@ export default function KoutureLanding() {
   return (
     <div className="bg-white text-black min-h-screen">
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant:wght@300;400;500;600&family=Inter:wght@200;300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant:wght@300;400;500;600&family=Inter:wght@200;300;400;500&display=swap');
         
         body {
           font-family: 'Inter', sans-serif;
@@ -191,12 +191,13 @@ export default function KoutureLanding() {
               <div className="w-1 h-1 rounded-full bg-white/70"></div>
               <div className="h-px w-16 bg-white/50"></div>
             </div>
-            <p className="text-sm md:text-base tracking-[0.35em] mb-2 text-white/95 font-light drop-shadow-lg">
+            <p className="text-sm md:text-base tracking-[0.35em] mb-2 text-white font-medium drop-shadow-2xl" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
               CURATED CONSIGNMENT
             </p>
-            <p className="text-xs tracking-[0.3em] text-white/80 mb-14 font-light drop-shadow-md">
+            <p className="text-xs tracking-[0.3em] text-white font-medium drop-shadow-2xl" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
               Cherry Creek, Colorado
             </p>
+            <div className="h-10"></div>
             <a
               href="#collection"
               className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/40 text-white px-12 py-4 text-[11px] tracking-[0.25em] hover:bg-white hover:text-black transition-all duration-700 shadow-lg"
