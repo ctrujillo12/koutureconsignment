@@ -317,23 +317,17 @@ export default function KoutureLanding() {
                       Cherry Creek
                     </p>
                     <p className="text-gray-500 text-sm font-light">Denver, Colorado</p>
-                    <a
-                      href="https://www.google.com/maps?q=300+Josephine+St+%23120,+Denver,+CO+80206"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 text-xs mt-1 font-light tracking-wide hover:text-black transition-colors duration-300"
-                    >
-                      300 Josephine St #120, Denver, CO 80206
-                    </a>
-
+                    <p className="text-gray-400 text-xs mt-1 font-light tracking-wide">
+                      Denver's Premier Fashion District
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-5">
                   <Clock size={22} className="mt-1.5 flex-shrink-0 text-black/60" strokeWidth={1.5} />
                   <div>
                     <p className="text-xl md:text-2xl font-cormorant mb-4 tracking-wide">Hours</p>
-                    <p className="text-gray-600 text-sm mb-2 font-light">Tuesday - Saturday: 11AM - 5PM</p>
-                    <p className="text-gray-600 text-sm font-light">Sunday & Monday: 12PM - 4PM</p>
+                    <p className="text-gray-600 text-sm mb-2 font-light">Monday - Saturday: 10AM - 6PM</p>
+                    <p className="text-gray-600 text-sm font-light">Sunday: 12PM - 5PM</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-5">
